@@ -1,0 +1,6 @@
+services:
+  marvin_composer_incubator.commands:
+    class: 'Drush\Commands\marvin_composer_incubator\PhpcsCommands'
+    tags:
+      -
+        name: 'drush.command'
